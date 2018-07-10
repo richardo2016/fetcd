@@ -6,8 +6,8 @@
   "types": "@types/index.d.ts",
   "scripts": {
     "build": "fib-typify src -o lib -c .typifyrc.json",
-    "test": "fibjs ./demo/test/index.js",
-    "ci": "fibjs ./demo/test/index.js"
+    "test": "fibjs ./test/index.js",
+    "ci": "fibjs ./test/index.js"
   },
   "author": "Richard <richardo2016@gmail.com>",
   "homepage": "https://github.com/richardo2016/fetcd",
